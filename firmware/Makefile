@@ -113,7 +113,7 @@ fw-shipped-$(CONFIG_EXYNOS8895_ACPM) += exynos8895_acpm_dvfs.fw
 endif
 fw-shipped-$(CONFIG_EXYNOS7872_ACPM) += exynos7872_acpm_dvfs.fw
 fw-shipped-$(CONFIG_EXYNOS7872_ACPM) += exynos7872_acpm_fvp.fw
-fw-shipped-$(CONFIG_EXYNOS7885_ACPM) += exynos7885_acpm_fvp.fw
+fw-shipped-$(CONFIG_EXYNOS7885_ACPM) += ../exynos7885_acpm_fvp.fw
 fw-shipped-$(CONFIG_USB_SERIAL_KEYSPAN_MPR) += keyspan/mpr.fw
 fw-shipped-$(CONFIG_USB_SERIAL_KEYSPAN_USA18X) += keyspan/usa18x.fw
 fw-shipped-$(CONFIG_USB_SERIAL_KEYSPAN_USA19) += keyspan/usa19.fw
